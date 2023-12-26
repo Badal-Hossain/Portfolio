@@ -1,0 +1,16 @@
+.loader {
+    position: relative;
+    width: 240px;
+    height: 2px;
+    background: #E0874B;
+}
+.about {
+    position: relative;
+    width: 110px;
+    height: 2px;
+    background: black;
+}
+.marque {
+    height: 100px;
+    background-color: black;
+}

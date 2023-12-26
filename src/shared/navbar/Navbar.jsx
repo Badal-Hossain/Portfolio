@@ -15,8 +15,11 @@ const Navbar = () => {
         <NavLink to='/contacts'>CONTACTUS</NavLink>
     </nav>
     </>
+  
+   
+
     return (
-        <div className="navbar">
+        <div className='navbar'>
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +41,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink><a className="btn text-xl font-normal lg:mr-20 px-8 text-black" style={{backgroundColor:'#E0874B'}}>Let's Talk <IoIosArrowRoundForward></IoIosArrowRoundForward></a></NavLink>
+                <NavLink><a className="btn text-xl font-normal lg:mr-20 px-8 text-black border-none" style={{backgroundColor:'#E0874B'}}>Let's Talk <IoIosArrowRoundForward></IoIosArrowRoundForward></a></NavLink>
             </div>
         </div>
     );
