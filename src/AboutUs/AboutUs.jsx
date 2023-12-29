@@ -27,7 +27,7 @@ const AboutUs = () => {
                                     <span className='text-base'>Mari Addison</span>
                                 </li>
                                 <li className='mb-3'>Nationality
-                                    <span className='mx-4'> : </span>
+                                    <span className='mr-4 ml-5'> : </span>
                                     <span className='text-base'>Bangladesh</span>
                                 </li>
                                 <li className='mb-3'>Phone
@@ -53,15 +53,15 @@ const AboutUs = () => {
                             </ul>
                         </div>
                         <div>
-                            <div className='border mb-4 rounded-md border-black w-1/2 mx-auto px-4 py-4'>
+                            <div className='aboutBox mb-4  w-3/5 mx-auto px-4 py-4'>
                                 <h5 className='text-2xl font-semibold'>4.5</h5>
                                 <p>Rating</p>
                             </div>
-                            <div className='border mb-4 rounded-md border-black w-1/2 mx-auto px-4 py-4'>
+                            <div className='aboutBox mb-4 w-3/5 mx-auto px-4 py-4'>
                                 <h5 className='text-2xl font-semibold'>26+</h5>
                                 <p>Clent</p>
                             </div>
-                            <div className='border mb-4 rounded-md border-black w-1/2 mx-auto px-4 py-4'>
+                            <div className='aboutBox mb-4 w-3/5 mx-auto px-4 py-4'>
                                 <h5 className='text-2xl font-semibold'>200+</h5>
                                 <p>Reviews</p>
                             </div>
