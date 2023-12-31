@@ -1,10 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-import Navbar from '../shared/navbar/Navbar';
-import './AboutUs.css'
-const AboutUs = () => {
+const About = () => {
     return (
-        <div className='aboutPage'>
-            <Navbar></Navbar>
+        <div style={{backgroundImage:'linear-gradient(to right, #EBE9EB, #E0F2EC, #FEF3DC 80%)'}}>
             <div className="text-center py-16 text-2xl">
                 <i>I AM WEB DEVELOPER</i>
                 <div className="loader mx-auto"></div>
@@ -75,4 +71,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default About;

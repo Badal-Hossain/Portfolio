@@ -1,0 +1,15 @@
+.expPage {
+    background-image: linear-gradient(to right, #EBE9EB, #E0F2EC, #FEF3DC 80%);
+}
+.expHr {
+    position: relative;
+    height: 2px;
+    background: black;
+    width: 130px;
+}
+.expBox {
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+}

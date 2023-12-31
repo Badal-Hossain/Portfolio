@@ -4,3 +4,45 @@
     background: white;
     width: 130px;
 }
+.reactIcon {
+    border: 2px solid rgb(63, 62, 62);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.skillBox {
+    padding: 14px;
+    border: 2px solid rgb(63, 62, 62);
+    width: 318px;
+}
+.skillBar {
+    width: 250px;
+    height: 8px;
+    background: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.skillPer {
+    height: 8px;
+    background: #E0874B;
+    position: relative;
+    animation: fillBar 2.5s 1;
+}
+.skillPer::before {
+    content: '';
+    position: absolute;
+    transform: translateX(50%);
+}
+.skillPer::after {
+    content: '';
+    position: absolute;
+    transform: translateX(50%) rotate(45deg);
+}
+@keyframes fillBar{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
