@@ -1,0 +1,24 @@
+.eduPage {
+    background-image: linear-gradient(to right, #EBE9EB, #E0F2EC, #FEF3DC 80%);
+}
+.eduHr {
+    height: 2px;
+    width: 180px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.educationBox {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    border-left: 5px solid black;
+}
+.boxHr {
+    height: 1px;
+    width: 550px;
+    background-color: black;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
