@@ -13,3 +13,9 @@
     border-radius: 5px;
     width: 300px;
 }
+.expBox:hover {
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+    border-left: 7px solid salmon;
+}

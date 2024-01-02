@@ -2,24 +2,33 @@
 import { NavLink } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import './Navbar.css'
+import './Navbar'
 
 const Navbar = () => {
     const links = <>
-    <nav>
-        <NavLink to='/'>HOME</NavLink>
-        <NavLink to='/about'>ABOUT</NavLink>
-        <NavLink to='/work'>WORK</NavLink>
-        <NavLink to='/services'>SERVICES</NavLink>
-        <NavLink to='/testimonial'>TESTIMONIAL</NavLink>
-        <NavLink to='/blog'>BLOG</NavLink>
-        <NavLink to='/contacts'>CONTACTUS</NavLink>
-    </nav>
+        <nav>
+            <NavLink to='/'>HOME</NavLink>
+            <NavLink to='/about'>ABOUT</NavLink>
+            <NavLink to='/work'>WORK</NavLink>
+            <NavLink to='/services'>SERVICES</NavLink>
+            <NavLink to='/testimonial'>TESTIMONIAL</NavLink>
+            <NavLink to='/blog'>BLOG</NavLink>
+            <NavLink to='/contacts'>CONTACTUS</NavLink>
+        </nav>
     </>
-  
-   
+
+    document.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if(window.scrollY > 0) {
+            header.style.backgroundColor = "black"
+            header.style.transition = "0.4s linear"
+        }else {
+            header.style.backgroundColor = "transparent"
+        }
+    })
 
     return (
-        <div className='navbar'>
+        <header className='navbar'>
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +52,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <NavLink><a className="btn text-xl font-normal lg:mr-20 px-8 text-black border-none" style={{backgroundColor:'#E0874B'}}>Let's Talk <IoIosArrowRoundForward></IoIosArrowRoundForward></a></NavLink>
             </div>
-        </div>
+        </header>
     );
 };
 
